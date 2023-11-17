@@ -6,8 +6,7 @@ fn main() {
     // type casting
     let num = 10 as f32;
     let num2 = 3 as f32;
-
-    let div = (num/num2);
+    let div = num/num2;
     println!("{}",div);
 
     let mut number = String::new();
