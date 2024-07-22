@@ -4,9 +4,9 @@ fn main() {
 
 
     // type casting
-    let num = 10 as f32;
-    let num2 = 3 as f32;
-    let div = num/num2;
+    let num = 10;
+    let num2 = 3;
+    let div = num as f32 / num2 as f32;
     println!("{}",div);
 
     let mut number = String::new();

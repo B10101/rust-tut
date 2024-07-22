@@ -1,7 +1,6 @@
 fn main() {
     talk();
     add(2,3.4);
-    let result = ret(2,4);
     println!("{}", ret(3,6))
 }
 
@@ -15,6 +14,6 @@ fn add(x: i32, y: f32){
 }
 
 fn ret(x: i32, y: i32) ->i32{
-    let result = x + y;
-    return result
+   
+    return x + y
 }
