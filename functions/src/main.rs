@@ -2,7 +2,7 @@ fn main() {
     talk();
     add(2,3.4);
     let result = ret(2,4);
-    println!("{}", result)
+    println!("{}", ret(3,6))
 }
 
 fn talk(){
